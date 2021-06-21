@@ -4,7 +4,7 @@
     "type": "wordpress-plugin",
     "autoload": {
         "psr-4": {
-            "Adil\\BrunchSheet\\": "src/"
+            "BrunchSheet\\": "src/"
         }
     },
     "authors": [
@@ -13,9 +13,14 @@
             "email": "adil.ali@nxb.com.pk"
         }
     ],
-    "support": {
-        "src": "https://github.com/aadilali/brunch-sheet"
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/aadilali/brunch-sheet"
+        }
+    ],
+    "require": {
+        "adil.ali/brunch-sheet": "master"
     },
-    "minimum-stability": "stable",
-    "require": {}
+    "minimum-stability": "stable"
 }
