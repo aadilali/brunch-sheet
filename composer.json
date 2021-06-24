@@ -1,5 +1,5 @@
 {
-    "name": "mytest/brunch-sheet",
+    "name": "ptmytest/brunch-sheet",
     "description": "TEst plugins",
     "type": "wordpress-plugin",
     "autoload": {
