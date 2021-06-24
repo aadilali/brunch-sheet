@@ -1,6 +1,6 @@
 {
-    "name": "adil.ali/brunch-sheet",
-    "description": "TEst pl;ugins",
+    "name": "mytest/brunch-sheet",
+    "description": "TEst plugins",
     "type": "wordpress-plugin",
     "autoload": {
         "psr-4": {
@@ -9,18 +9,9 @@
     },
     "authors": [
         {
-            "name": "Adil Ali (2078)",
+            "name": "Adil Ali",
             "email": "adil.ali@nxb.com.pk"
         }
     ],
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/aadilali/brunch-sheet"
-        }
-    ],
-    "require": {
-        "adil.ali/brunch-sheet": "master"
-    },
     "minimum-stability": "stable"
 }
