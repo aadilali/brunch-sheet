@@ -1,7 +1,6 @@
 {
     "name": "ptmytest/brunch-sheet",
-    "description": "TEst plugins",
-    "type": "wordpress-plugin",
+    "description": "TEst plugins for composer install",
     "autoload": {
         "psr-4": {
             "BrunchSheet\\": "src/"
@@ -13,5 +12,12 @@
             "email": "adil.ali@nxb.com.pk"
         }
     ],
+    "extra": {
+    "installer-paths": {
+      "wp-content/plugins/{$name}/": [
+        "type:wordpress-plugin"
+      ]
+    }
+  },
     "minimum-stability": "stable"
 }
