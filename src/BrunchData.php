@@ -8,7 +8,7 @@ class BrunchData
 {
     public function __construct()
     {
-        echo '<h1>BRUNCH DATA CONSTRUCTOR</h1>';
+        echo '<h1>BRUNCH DATA CONSTRUCTOR FOR COMPOSER</h1>';
         new CustomURL();
     }
 
