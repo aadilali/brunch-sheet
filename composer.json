@@ -18,7 +18,7 @@
     },
     "extra": {
         "installer-paths": {
-            "/www/xperiencergcorp_407/public/wp-content/plugins/{$name}": ["vendor/package"]
+            "wp-content/plugins/{$name}/": ["type:wordpress-plugin"]
         }
     },
     "minimum-stability": "stable"
