@@ -13,5 +13,13 @@
             "email": "adil.ali@nxb.com.pk"
         }
     ],
+    "require": {
+        "composer/installers": "~1.0"
+    },
+    "extra": {
+        "installer-paths": {
+            "/www/xperiencergcorp_407/public/wp-content/plugins/{$name}": ["vendor/package"]
+        }
+    },
     "minimum-stability": "stable"
 }
