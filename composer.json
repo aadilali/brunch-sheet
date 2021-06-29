@@ -1,7 +1,8 @@
 {
     "name": "ptmytest/brunch-sheet",
     "description": "TEst plugins for composer install",
-    "type": "wordpress-plugin",
+    "license": "GPL-2.0+",
+    "type": "wordpress-muplugin",
     "autoload": {
         "psr-4": {
             "BrunchSheet\\": "src/"
