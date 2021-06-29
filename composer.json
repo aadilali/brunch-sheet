@@ -13,13 +13,5 @@
             "email": "adil.ali@nxb.com.pk"
         }
     ],
-    "require": {
-        "composer/installers": "~1.0"
-    },
-    "extra": {
-        "installer-paths": {
-            "wp-content/plugins/{$name}/": ["type:wordpress-plugin"]
-        }
-    },
     "minimum-stability": "stable"
 }
